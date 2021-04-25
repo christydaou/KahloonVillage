@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white"
+            android:title="Home Page" />
+        <item android:id="@+id/nav_person"
+            android:icon="@drawable/ic_person_white"
+            android:title="Profile" />
+        <item android:id="@+id/nav_select_employee"
+            android:icon="@drawable/ic_select_all_employees"
+            android:title="Employee Selection" />
+        <item android:id="@+id/nav_rest_reservation"
+            android:icon="@drawable/ic_restaurant_resev"
+            android:title="Restaurant Reservations" />
+        <item android:id="@+id/nav_bungalow_reservation"
+            android:icon="@drawable/ic_home_white"
+            android:title="Bungalow Reservations" />
+        <item android:id="@+id/nav_pay"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Payment List" />
+
+    </group>
+</menu>
